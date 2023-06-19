@@ -140,6 +140,24 @@ body {
 .form-row .checkbox-label{
     margin-bottom: 0;
 }
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: green;
+}
+
+
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
     .speaker-form {
@@ -187,7 +205,9 @@ body {
         width: auto;
     }
 
-
+    .form-row button {
+        margin-left: 10px;
+    }
 
 }
 
