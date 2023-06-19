@@ -8,8 +8,8 @@
 }
 
 body {
-        color: rgb(255, 255, 255);
-        background-color: rgb(255, 255, 255);
+        color: white;
+        background-color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         line-height: 1.3;
@@ -43,7 +43,7 @@ body {
 
 .speaker-form {
     background-color: purple;
-    border: yellow;
+    border: white;
     border-radius: 5px;
 
     width:  80%;
@@ -65,8 +65,8 @@ body {
 
 .form-row input[type="text"]
 .form-row input [type="email"] {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    background-color: violet;
+    border: 1px solid violet;
     border-radius: 3px;
 
     width: 100%;
@@ -109,6 +109,33 @@ body {
         float: left;
 }
 
+.form-row select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    
+}
+
+.form-row textarea {
+
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+
+}
+
+.form-row .instructions {
+    color: blue;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
     .speaker-form {
@@ -147,7 +174,9 @@ body {
     .legacy-form-row legend{
         float: left;
     }
-
+    .form-row .instructions {
+        margin-left: 120px;
+    }
 
 }
 
